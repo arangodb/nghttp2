@@ -31,7 +31,8 @@ set(NGHTTP2_SOURCES
 )
 
 set(NGHTTP2_RES "")
-set(STATIC_LIB "nghttp2_static")
+# set(STATIC_LIB "nghttp2_static")
+set(STATIC_LIB "nghttp2")
 set(SHARED_LIB "nghttp2")
 
 if(BUILD_SHARED_LIBS AND BUILD_STATIC_LIBS AND MSVC AND NOT STATIC_LIB_SUFFIX)
